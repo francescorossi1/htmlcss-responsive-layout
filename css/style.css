@@ -9,6 +9,20 @@ body{
 }
 
 
+.row{
+    flex-direction: column;
+}
+
+.col{
+    height: 400px;
+    padding: 0 30px;
+}
+
+.card{
+    border-radius: 30px;
+    height: 100%;
+}
+
 /* utils */
 
 .bg-light-blue{
@@ -17,6 +31,14 @@ body{
 
 .bg-aqua{
     background-color: #B5DDFF;
+}
+
+.bg-purple{
+    background-color: #9792E4;
+}
+
+.bg-white{
+    background-color: #fff;
 }
 
 .container{
@@ -54,20 +76,16 @@ nav .container{
 
 /* Demo section */
 
-#Demo .row{
-    flex-direction: column;
-}
 
-#Demo .col{
-    /* to be removed */
-    height: 400px;
-    
-    padding: 0 30px;
+#demo .col{
     margin-bottom: 20px;
 }
 
-#Demo .card{
-    border-radius: 30px;
-    height: 100%;
+#demo .card{
     background-color: #B5DDFF;
 }
+
+/* Strategic planning */
+
+/* Partners */
+
