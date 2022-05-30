@@ -8,6 +8,9 @@ body{
     padding-top: 70px;
 }
 
+footer{
+    background-color: #333;
+}
 
 .row{
     flex-direction: column;
@@ -16,6 +19,7 @@ body{
 .col{
     height: 400px;
     padding: 0 30px;
+    margin-bottom: 20px;
 }
 
 .card{
@@ -76,11 +80,6 @@ nav .container{
 
 /* Demo section */
 
-
-#demo .col{
-    margin-bottom: 20px;
-}
-
 #demo .card{
     background-color: #B5DDFF;
 }
@@ -89,3 +88,22 @@ nav .container{
 
 /* Partners */
 
+#partners .card{
+    background-color: #9792E4;
+}
+
+/* Benefits */
+
+#benefits .card{
+    background-color: #fff;
+}
+
+/* About us */
+
+#about-us .card{
+    background-color: #fff;
+}
+
+/* Get started */
+
+/* Footer */
