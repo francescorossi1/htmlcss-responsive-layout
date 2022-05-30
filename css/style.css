@@ -10,6 +10,9 @@ body{
 
 footer{
     background-color: #333;
+
+    /* to be removed */
+    height: 200px;
 }
 
 .row{
@@ -18,11 +21,11 @@ footer{
 
 .col{
     height: 400px;
-    padding: 0 30px;
     margin-bottom: 20px;
 }
 
 .card{
+    margin: 20px;
     border-radius: 30px;
     height: 100%;
 }
@@ -107,3 +110,30 @@ nav .container{
 /* Get started */
 
 /* Footer */
+
+
+
+/* Responsive queries */
+
+@media screen and (min-width: 768px){
+    main .row{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .col.w-66{
+        width: calc(100% / 3 * 2);
+    }
+
+    .col.w-33{
+        width: calc(100% / 3);
+    }
+
+    .col.w-100{
+        width: 100%;
+    }
+
+    .col.w-50{
+        width: 50%;
+    }
+}
