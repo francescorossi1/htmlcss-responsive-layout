@@ -61,6 +61,9 @@ footer{
     padding: 50px 0;
 }
 
+.row.gutter{
+    margin: 0 -20px;
+}
 /* header */
 
 header nav{
@@ -69,7 +72,6 @@ header nav{
     left: 0;
     right: 0;
     height: 70px;
-    padding: 10px;
 }
 
 nav .container{
@@ -80,6 +82,10 @@ nav .container{
     height: 70px;
     background-color: #fff;
     width: 10%;
+}
+
+nav p{
+    display: none;
 }
 
 /* Demo section */
@@ -145,6 +151,14 @@ nav .container{
     }
 
     .container{
-        width: 80%;
+        width: 992px;
+    }
+
+    nav p{
+        display: flex;
+    }
+
+    nav span{
+        display: none;
     }
 }
