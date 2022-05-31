@@ -22,7 +22,7 @@ ul{
     list-style: none;
 }
 
-li a{
+a{
     text-decoration: none;
     color: #fff;
     padding: 0 20px;
@@ -34,16 +34,45 @@ li a{
 }
 
 .col{
-    height: 400px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .card{
     border-radius: 30px;
     height: 100%;
 }
+.col.w-33 .card-text{
+    text-align: center;
+}
+
+.card-text > *{
+    font-weight: 700;
+}
+
+.card-text{
+    padding: 30px;
+}
+
+img{
+    max-width: 100%;
+    display: inline-block;
+}
 
 /* utils */
+
+/* color palette */
+
+.light-blue{
+    color: #0084FD;
+}
+
+.white{
+    color: #fff;
+}
+
+.gray{
+    color: #5A6E7F;
+}
 
 .bg-light-blue{
     background-color: #0084FD;
@@ -61,9 +90,11 @@ li a{
     background-color: #fff;
 }
 
-.white{
-    color: #fff;
+.mb-30{
+    margin-bottom: 30px;
 }
+
+/* other */
 
 .container{
     width: 100%;
@@ -81,7 +112,10 @@ li a{
 .button{
     padding: 5px 10px;
     border-radius: 20px;
-    color: #000;
+}
+
+.font-20{
+    font-size: 20px;
 }
 
 
@@ -107,10 +141,19 @@ nav #menu-ext{
     display: none;
 }
 
+nav .button{
+    color: #000;
+}
+
 /* Demo section */
 
 #demo .card{
     background-color: #B5DDFF;
+}
+
+#demo .card-img{
+    text-align: center;
+    max-width: 60%;
 }
 
 /* Strategic planning */
@@ -147,19 +190,19 @@ nav #menu-ext{
         flex-wrap: wrap;
     }
 
-    .col.w-66{
+    .w-66{
         width: calc(100% / 3 * 2);
     }
 
-    .col.w-33{
+    .w-33{
         width: calc(100% / 3);
     }
 
-    .col.w-100{
+    .w-100{
         width: 100%;
     }
 
-    .col.w-50{
+    .w-50{
         width: 50%;
     }
 }
@@ -180,4 +223,14 @@ nav #menu-ext{
     nav #menu-icon{
         display: none;
     }
+
+    #demo .card{
+        display: flex;
+        flex-basis: 50%;
+    }
+
+    #demo .card-img{
+        align-self: flex-end;
+    }
+
 }
