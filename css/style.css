@@ -13,9 +13,6 @@ body{
 
 footer{
     background-color: #333;
-
-    /* to be removed */
-    height: 200px;
 }
 
 ul{
@@ -152,6 +149,10 @@ img{
     font-size: 36px;
 }
 
+.underlined-link{
+    padding: 0;
+    text-decoration: underline;
+}
 
 /* header */
 
@@ -240,13 +241,17 @@ nav #menu-ext{
     text-align: center;
 }
 
-#get-started #underlined-link{
-    padding: 0;
-    text-decoration: underline;
-}
 
 /* Footer */
 
+footer .article{
+    padding: 30px;
+    text-align: center;
+}
+
+footer .container{
+    max-width: 600px;
+}
 
 
 /* Responsive queries */
