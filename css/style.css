@@ -67,6 +67,10 @@ img{
 
 /* color palette */
 
+.orange{
+    color: #FDC15F;
+}
+
 .light-blue{
     color: #0084FD;
 }
@@ -122,6 +126,11 @@ img{
 .button{
     padding: 5px 10px;
     border-radius: 20px;
+}
+
+.big-button{
+    padding: 20px 50px;
+    border-radius: 30px;
 }
 
 .font-12{
@@ -226,6 +235,15 @@ nav #menu-ext{
 
 
 /* Get started */
+
+#get-started .card-text{
+    text-align: center;
+}
+
+#get-started #underlined-link{
+    padding: 0;
+    text-decoration: underline;
+}
 
 /* Footer */
 
