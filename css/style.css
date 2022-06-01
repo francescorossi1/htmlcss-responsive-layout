@@ -74,6 +74,14 @@ img{
     color: #5A6E7F;
 }
 
+.black{
+    color: #000;
+}
+
+.purple{
+    color: #9792E4;
+}
+
 .bg-light-blue{
     background-color: #0084FD;
 }
@@ -114,10 +122,17 @@ img{
     border-radius: 20px;
 }
 
-.font-20{
-    font-size: 20px;
+.font-18{
+    font-size: 18px;
 }
 
+.font-24{
+    font-size: 24px;
+}
+
+.font-30{
+    font-size: 30px;
+}
 
 
 /* header */
@@ -141,10 +156,6 @@ nav #menu-ext{
     display: none;
 }
 
-nav .button{
-    color: #000;
-}
-
 /* Demo section */
 
 #demo .card{
@@ -158,10 +169,36 @@ nav .button{
 
 /* Strategic planning */
 
+#strategic-plan .card-text{
+    text-align: center;
+}
+
+#strategic-plan a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
 /* Testimonials */
 
 #testimonials .card{
     background-color: #9792E4;
+    text-align: center;
+}
+
+#testimonials .article{
+    text-align: center;
+}
+
+#testimonials .card-img{
+    padding: 30px;
+}
+
+#testimonials img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
 }
 
 /* Benefits */
@@ -212,6 +249,10 @@ nav .button{
         width: 50%;
     }
 
+    #strategic-plan .card {
+        height: min-content;
+    }
+
     .container{
         width: 992px;
     }
@@ -233,4 +274,13 @@ nav .button{
         align-self: flex-end;
     }
 
+    #testimonials .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #testimonials .card-img{
+        flex-shrink: 0;
+    }
 }
