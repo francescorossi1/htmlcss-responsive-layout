@@ -58,6 +58,11 @@ img{
     display: inline-block;
 }
 
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
 /* utils */
 
 /* color palette */
@@ -98,16 +103,13 @@ img{
     background-color: #fff;
 }
 
+
+/* other */
+
 .mb-30{
     margin-bottom: 30px;
 }
 
-/* other */
-
-.container{
-    width: 100%;
-    margin: 0 auto;
-}
 
 .d-flex{
     display: flex;
@@ -132,6 +134,10 @@ img{
 
 .font-30{
     font-size: 30px;
+}
+
+.font-36{
+    font-size: 36px;
 }
 
 
