@@ -124,6 +124,9 @@ img{
     border-radius: 20px;
 }
 
+.font-12{
+    font-size: 12px;
+}
 .font-18{
     font-size: 18px;
 }
@@ -200,7 +203,7 @@ nav #menu-ext{
     padding: 30px;
 }
 
-#testimonials img{
+#testimonials img, #about-us img{
     border-radius: 50%;
     object-fit: cover;
     width: 200px;
@@ -217,7 +220,10 @@ nav #menu-ext{
 
 #about-us .card{
     background-color: #fff;
+    text-align: center;
 }
+
+
 
 /* Get started */
 
@@ -232,22 +238,25 @@ nav #menu-ext{
         flex-direction: row;
         flex-wrap: wrap;
     }
-
-    .w-66{
-        width: calc(100% / 3 * 2);
-    }
-
     .w-33{
         width: calc(100% / 3);
     }
-
+    .w-40{
+        width: 40%;
+    }
+    .w-50{
+        width: 50%;
+    }
+    .w-60{
+        width: 60%;
+    }
+    .w-66{
+        width: calc(100% / 3 * 2);
+    }
     .w-100{
         width: 100%;
     }
 
-    .w-50{
-        width: 50%;
-    }
 }
 
 @media screen and (min-width: 992px){
